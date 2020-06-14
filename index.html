@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Git Splash</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col col-md-12 col-lg-12 col-xs-12 pt-2 header">
+          <label for="search">Git Splash</label>
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Enter your username"
+            required
+          />
+          <button class="btn btn-primary" type="submit" onclick="getData()">Submit</button>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col col-md-4 col-lg-4 col-xs-4">
+          <div class="image-placehoder">
+            <img class="avatarImg" src="" alt="" />
+          </div>
+          <br />
+          <div class="username-box">
+            <h4 class="name name-item"></h4>
+            <span class=" name-item usern"><h5></h5></span>
+          </div>
+          <div class="follower-cont">
+            <p class="follower follower-item"></p>
+            <p class="following follower-item"></p>
+          </div>
+          <div class="blog">
+            <p class="personalblog"></p>
+          </div>
+          <div class="location">
+            <p></p>
+          </div>
+        </div>
+
+        <div class="col col-md-6 col-lg-5 col-xs-5 pl-2 ml-3 text-center">
+          <h3>Repositories</h3>
+          <div class="card-container">
+            
+            
+          </div>
+        </div>
+        <div class="col col-md-1 col-lg-2 col-xs-2">
+          <div class="repos">
+            <p class="repos-item repoCount"></p>
+            <p class="repos-item gistCount"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

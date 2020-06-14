@@ -1,0 +1,33 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.username-box,.follower-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: baseline;
+}   
+.name-item, .follower-item {
+    padding: 10px;
+}
+.blog,.location {
+    padding: 10px;
+}
+
+.repos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.repos-item {
+    padding: 10px;
+}
+.avatarImg {
+    width: 300px;
+    height: 300px;
+    border: none;
+}
